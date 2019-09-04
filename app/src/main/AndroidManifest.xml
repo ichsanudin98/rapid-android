@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ichsanudinstore.loka">
+
+    <application
+        android:name=".LokaApp"
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".activity.ChangeProfileActivity"></activity>
+        <activity android:name=".activity.ForgetPasswordActivity" />
+        <activity android:name=".activity.CreateUpdateSeatActivity" />
+        <activity
+            android:name=".activity.DashboardActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.CreateUpdateOfficeActivity" />
+        <activity android:name=".activity.CreateUpdateAccountActivity" />
+        <activity android:name=".activity.UncaughtExceptionActivity" />
+        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name=".activity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

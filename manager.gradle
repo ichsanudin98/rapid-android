@@ -1,0 +1,16 @@
+project.ext {
+    commonSettings = [
+            midSdkVersion = 14,
+            targetSdkVersion = 29,
+            compileSdkVersion = 29,
+            buildToolsVersion = '29.0.0',
+
+    ]
+    coreVersion = [
+            gradleVersion = '3.5.0',
+            realmVersion = '5.14.0'
+    ]
+    commonDepedencies = [
+
+    ]
+}

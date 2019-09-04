@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@id/parent_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CreateUpdateAccountActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@id/appbar_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@id/toolbar_view"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_medium_large"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@id/mail_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/GeneralInputPrimaryTheme"
+                android:layout_marginTop="@dimen/margin_medium"
+                tools:hint="@string/email">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@id/mail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:padding="@dimen/padding_medium_large"
+                    android:singleLine="true"
+                    tools:text="asdasdasda"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@id/password_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/GeneralInputPrimaryTheme"
+                android:layout_marginTop="@dimen/margin_medium"
+                app:passwordToggleEnabled="true"
+                tools:hint="@string/password">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:padding="@dimen/padding_medium_large"
+                    android:singleLine="true"
+                    tools:text="asdasdasda"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@id/name_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/GeneralInputPrimaryTheme"
+                android:layout_marginTop="@dimen/margin_medium"
+                tools:hint="@string/password">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:padding="@dimen/padding_medium_large"
+                    android:singleLine="true"
+                    tools:text="asdasdasda"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@id/address_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/GeneralInputPrimaryTheme"
+                android:layout_marginTop="@dimen/margin_medium"
+                tools:hint="@string/address">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:padding="@dimen/padding_medium_large"
+                    android:singleLine="true"
+                    tools:text="asdasdasda"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@id/phone_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/GeneralInputPrimaryTheme"
+                android:layout_marginTop="@dimen/margin_medium"
+                tools:hint="@string/phone">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:padding="@dimen/padding_medium_large"
+                    android:singleLine="true"
+                    tools:text="asdasdasda"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.ichsanudinstore.loka.view.SpinnerMaterialButton
+                android:id="@id/gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/SingleButtonTheme"
+                android:layout_marginTop="@dimen/margin_medium" />
+
+            <com.ichsanudinstore.loka.view.SpinnerMaterialButton
+                android:id="@id/office"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/SingleButtonTheme"
+                android:layout_marginTop="@dimen/margin_medium" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@id/send"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_medium"
+                style="@style/SingleButtonTheme"
+                tools:text="@string/save"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

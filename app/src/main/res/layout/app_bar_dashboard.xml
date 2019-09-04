@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    tools:context=".activity.DashboardActivity">
+
+    <include
+        layout="@layout/content_dashboard"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"/>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@id/appbar_view"
+        style="@style/Widget.MaterialComponents.BottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:backgroundTint="@color/colorPrimary"
+        app:navigationIcon="@drawable/ic_arrow_back_white_24dp"
+        app:hideOnScroll="true"
+        app:fabAlignmentMode="end"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_menu_gallery"
+        app:backgroundTint="@color/colorAccent"
+        android:visibility="gone"
+        app:layout_anchor="@id/appbar_view" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

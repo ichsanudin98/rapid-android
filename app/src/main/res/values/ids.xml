@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- id for general -->
+    <item name="parent_view" type="id" />
+    <item name="appbar_view" type="id" />
+    <item name="nav_view" type="id" />
+    <item name="toolbar_view" type="id" />
+    <item name="content_view" type="id" />
+    <item name="mail_input" type="id" />
+    <item name="mail" type="id" />
+    <item name="old_password_input" type="id" />
+    <item name="old_password" type="id" />
+    <item name="password_input" type="id" />
+    <item name="password" type="id" />
+    <item name="confirmation_password_input" type="id" />
+    <item name="confirmation_password" type="id" />
+    <item name="name_input" type="id" />
+    <item name="name" type="id" />
+    <item name="address_input" type="id" />
+    <item name="address" type="id" />
+    <item name="phone_input" type="id" />
+    <item name="phone" type="id" />
+    <item name="gender_input" type="id" />
+    <item name="gender" type="id" />
+    <item name="office" type="id" />
+    <item name="send" type="id" />
+    <item name="empty_view" type="id" />
+    <item name="title_view" type="id" />
+    <item name="title" type="id" />
+    <item name="message" type="id" />
+    <item name="search_view" type="id" />
+    <item name="search" type="id" />
+    <item name="empty" type="id" />
+    <item name="add" type="id" />
+    <item name="register" type="id" />
+    <item name="base_url" type="id" />
+    <item name="login" type="id" />
+    <item name="activation" type="id" />
+    <item name="list" type="id" />
+    <item name="profile" type="id" />
+    <item name="admin" type="id" />
+    <item name="owner" type="id" />
+    <item name="general" type="id" />
+    <item name="edit" type="id" />
+    <item name="delete" type="id" />
+    <item name="detail" type="id" />
+    <item name="image" type="id" />
+    <item name="category" type="id" />
+    <item name="back" type="id" />
+    <item name="dismiss" type="id" />
+    <item name="bottom_view" type="id" />
+    <item name="logout_view" type="id" />
+    <item name="logout" type="id" />
+    <item name="settings_view" type="id" />
+    <item name="settings" type="id" />
+    <item name="status" type="id" />
+    <item name="progress" type="id" />
+    <item name="date" type="id" />
+    <item name="forget_password" type="id" />
+
+    <!-- id for business -->
+    <item name="business_name_input" type="id" />
+    <item name="business_name" type="id" />
+    <item name="business_address_input" type="id" />
+    <item name="business_address" type="id" />
+    <item name="business_phone_input" type="id" />
+    <item name="business_phone" type="id" />
+    <item name="business_category" type="id" />
+
+    <!-- id for dashboard -->
+    <item name="dashboard_menu" type="id" />
+
+    <!-- id for dashboard menu -->
+    <item name="dashboard_menu_office" type="id" />
+    <item name="dashboard_menu_category_office" type="id" />
+    <item name="dashboard_menu_rent" type="id" />
+    <item name="dashboard_menu_history_rent" type="id" />
+    <item name="dashboard_menu_seat" type="id" />
+    <item name="dashboard_menu_profile" type="id" />
+    <item name="dashboard_menu_approval" type="id" />
+    <item name="dashboard_menu_keeper" type="id" />
+    <item name="dashboard_menu_clear_data" type="id" />
+    <item name="dashboard_menu_logout" type="id" />
+
+    <!-- id for bottomsheet gender -->
+    <item name="gender_option_view" type="id" />
+    <item name="gender_option_male" type="id" />
+    <item name="gender_option_female" type="id" />
+
+    <!-- id for profile -->
+    <item name="profile_picture_background" type="id" />
+    <item name="profile_picture" type="id" />
+    <item name="profile_gender" type="id" />
+    <item name="profile_office" type="id" />
+
+    <!-- id for office -->
+    <item name="adapter_office_description_view" type="id" />
+    <item name="adapter_office_image" type="id" />
+    <item name="adapter_office_name" type="id" />
+    <item name="adapter_office_address" type="id" />
+    <item name="adapter_office_seat" type="id" />
+
+    <!-- id for seat -->
+    <item name="note_input" type="id" />
+    <item name="note" type="id" />
+</resources>

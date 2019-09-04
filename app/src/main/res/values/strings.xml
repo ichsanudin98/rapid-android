@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Loka</string>
+
+    <!-- strings for toolbar -->
+    <string name="dashboard">Halaman Utama</string>
+    <string name="profile">Akun</string>
+    <string name="seat">Loker</string>
+    <string name="rent">Penitipan</string>
+    <string name="history_rent">Riwayat Penitipan</string>
+    <string name="office">Tempat lokasi</string>
+
+    <!-- strings for general -->
+    <string name="admin">Admin</string>
+    <string name="owner">Pemilik</string>
+    <string name="general">Umum</string>
+    <string name="email">Email</string>
+    <string name="old_password">Kata sandi lama</string>
+    <string name="password">Kata sandi</string>
+    <string name="confirmation_password">Kata sandi baru</string>
+    <string name="name">Nama</string>
+    <string name="address">Alamat</string>
+    <string name="phone">Nomor handphone</string>
+    <string name="gender">Jenis kelamin</string>
+    <string name="note">Catatan</string>
+    <string name="male">Pria</string>
+    <string name="female">Wanita</string>
+    <string name="save">Simpan</string>
+    <string name="empty">Data tidak ada</string>
+    <string name="base_url">Base URL</string>
+    <string name="logout">Keluar</string>
+    <string name="clear_data">Hapus data</string>
+    <string name="open">Buka</string>
+    <string name="close">Tutup</string>
+    <string name="category">Kategori</string>
+    <string name="select_one">Pilih salah satu</string>
+    <string name="search">Pencarian</string>
+    <string name="cancel">Batal</string>
+    <string name="send">Kirim</string>
+    <string name="got_it">Mengerti</string>
+    <string name="warning">Peringatan</string>
+    <string name="yes">Iyah</string>
+    <string name="settings">Pengaturan</string>
+    <string name="required">tidak boleh kosong.</string>
+    <string name="edit">Ubah</string>
+    <string name="detail">Lihat</string>
+    <string name="delete">Hapus</string>
+    <string name="create">Tambah</string>
+    <string name="status">Status</string>
+    <string name="available">Tersedia</string>
+    <string name="unavailable">Terpakai</string>
+    <string name="assign">Titip</string>
+    <string name="unassign">Ambil</string>
+    <string name="item">Barang</string>
+    <string name="login">Masuk</string>
+    <string name="register">Daftar</string>
+    <string name="forget_password">Lupa password</string>
+    <string name="rent_assigned">masih terpakai</string>
+    <string name="rent_unassigned">tidak terpakai</string>
+
+    <string name="message_success1">berhasil</string>
+    <string name="message_success2">ditambahkan</string>
+    <string name="message_success3">diubah</string>
+    <string name="message_success4">dihapus</string>
+    <string name="message_logout">Anda yakin ingin menghapus seluruh data dan login kembali?</string>
+    <string name="message_invalid_email">Email tidak valid.</string>
+
+    <!-- strings for business -->
+    <string name="business_name">Nama usaha</string>
+    <string name="business_address">Alamat usaha</string>
+    <string name="business_phone">Telepon usaha</string>
+
+    <!-- strings for login -->
+    <string name="login_send">Masuk</string>
+
+    <!-- strings for register -->
+    <string name="register_send">Buat akun baru</string>
+    <string name="register_divider">Keterangan usaha</string>
+
+    <!-- strings for dashboard -->
+    <string name="dashboard_office">Tempat lokasi</string>
+    <string name="dashboard_category_office">Kategori tempat</string>
+    <string name="dashboard_history_rent">Riwayat penitipan</string>
+    <string name="dashboard_rent">Penitipan</string>
+    <string name="dashboard_seat">Loker</string>
+    <string name="dashboard_profile">Akun</string>
+    <string name="dashboard_approval">Pengajuan</string>
+    <string name="dashboard_keeper">Penjaga</string>
+
+    <!-- strings for approval -->
+    <string name="activated">Aktifkan</string>
+    <string name="deactivated">Bisukan</string>
+
+    <!-- strings for category -->
+    <string name="category_name">Nama kategori</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

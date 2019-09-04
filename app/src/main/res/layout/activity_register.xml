@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@id/parent_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/margin_horizontal"
+    android:paddingTop="@dimen/margin_vertical"
+    android:paddingRight="@dimen/margin_horizontal"
+    android:paddingBottom="@dimen/margin_vertical"
+    android:background="@drawable/bg_color_login"
+    tools:context=".activity.RegisterActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/image_width_medium_large"
+            android:layout_height="@dimen/image_height_medium_large"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_apps"
+            tools:ignore="ContentDescription" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@id/mail_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/GeneralInputWhiteTheme"
+            tools:hint="@string/email">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@id/mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:padding="@dimen/padding_medium_large"
+                android:singleLine="true"
+                tools:text="asdasdasda"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@id/password_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/GeneralInputWhiteTheme"
+            android:layout_marginTop="@dimen/margin_medium"
+            app:passwordToggleEnabled="true"
+            tools:hint="@string/password">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:padding="@dimen/padding_medium_large"
+                android:singleLine="true"
+                tools:text="asdasdasda"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@id/name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/GeneralInputWhiteTheme"
+            android:layout_marginTop="@dimen/margin_medium"
+            tools:hint="@string/name">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:padding="@dimen/padding_medium_large"
+                android:singleLine="true"
+                tools:text="asdasdasda"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@id/address_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/GeneralInputWhiteTheme"
+            android:layout_marginTop="@dimen/margin_medium"
+            tools:hint="@string/address">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:padding="@dimen/padding_medium_large"
+                tools:text="asdasdasda"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@id/phone_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/GeneralInputWhiteTheme"
+            android:layout_marginTop="@dimen/margin_medium"
+            tools:hint="@string/phone">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:padding="@dimen/padding_medium_large"
+                android:singleLine="true"
+                tools:text="asdasdasda"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.ichsanudinstore.loka.view.SpinnerMaterialButton
+            android:id="@id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/SingleButtonTheme"
+            android:layout_marginTop="@dimen/margin_medium"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:background="@color/colorPrimary" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:padding="@dimen/padding_small"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:text="@string/register_divider"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@id/business_name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/GeneralInputWhiteTheme"
+            android:layout_marginTop="@dimen/margin_medium"
+            tools:hint="@string/business_name">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@id/business_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:padding="@dimen/padding_medium_large"
+                android:singleLine="true"
+                tools:text="asdasdasda"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@id/business_address_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/GeneralInputWhiteTheme"
+            android:layout_marginTop="@dimen/margin_medium"
+            tools:hint="@string/business_address">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@id/business_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:padding="@dimen/padding_medium_large"
+                tools:text="asdasdasda"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@id/business_phone_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/GeneralInputWhiteTheme"
+            android:layout_marginTop="@dimen/margin_medium"
+            tools:hint="@string/business_phone">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@id/business_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:padding="@dimen/padding_medium_large"
+                android:singleLine="true"
+                tools:text="asdasdasda"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/margin_medium">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@id/send"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/SingleButtonTheme"
+                tools:text="@string/register_send"/>
+
+            <ProgressBar
+                android:id="@id/progress"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/progress_height"
+                android:layout_marginTop="-11dp"
+                android:visibility="invisible"
+                android:indeterminate="true"
+                style="?android:attr/progressBarStyleHorizontal" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            style="@style/SingleButtonTheme"
+            tools:text="@string/login_send"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.core.widget.NestedScrollView>

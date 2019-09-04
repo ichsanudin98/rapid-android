@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@id/admin"
+        android:title="@string/admin">
+        <menu>
+            <item
+                android:id="@id/dashboard_menu_approval"
+                android:icon="@drawable/ic_assignment_black_24dp"
+                android:title="@string/dashboard_approval" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@id/owner"
+        android:title="@string/owner">
+        <menu>
+            <item
+                android:id="@id/dashboard_menu_category_office"
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="@string/dashboard_category_office" />
+            <item
+                android:id="@id/dashboard_menu_office"
+                android:icon="@drawable/ic_office_black_24dp"
+                android:title="@string/dashboard_office" />
+            <item
+                android:id="@id/dashboard_menu_keeper"
+                android:icon="@drawable/ic_keeper_black_24dp"
+                android:title="@string/dashboard_keeper" />
+            <item
+                android:id="@id/dashboard_menu_seat"
+                android:icon="@drawable/ic_seat_black_24dp"
+                android:title="@string/dashboard_seat" />
+            <item
+                android:id="@id/dashboard_menu_history_rent"
+                android:icon="@drawable/ic_history_rent_black_24dp"
+                android:title="@string/dashboard_history_rent"
+                android:visible="false"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@id/general"
+        android:title="@string/general">
+        <menu>
+            <item
+                android:id="@id/dashboard_menu_rent"
+                android:icon="@drawable/ic_rent_black_24dp"
+                android:title="@string/dashboard_rent" />
+            <item
+                android:id="@id/dashboard_menu_clear_data"
+                android:icon="@drawable/ic_cleardata_black_24dp"
+                android:title="@string/clear_data"
+                android:visible="false"/>
+            <item
+                android:id="@id/dashboard_menu_logout"
+                android:icon="@drawable/ic_out_black_24dp"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+</menu>
